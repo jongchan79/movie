@@ -1,0 +1,52 @@
+.movie__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+  }
+  
+  .movie__detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+  }
+  
+  .movie__detail__cover{
+    border: 1px solid white;
+    border-radius: 30px;
+  }
+  
+  .movie__title{
+    font-size: 50px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .movie__detail__info{
+    font-size: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .movie__category{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: 20px 0px;
+    list-style-type:disc;
+  }
+  
+  .movie__detail__description{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie__description{
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 25px;
+  }
